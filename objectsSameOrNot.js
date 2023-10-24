@@ -9,7 +9,7 @@ let flag= true;
 if(obj1Keys.length == obj2Keys.length){
     for(let key in obj1){
         if(obj1[key] != obj2[key]){
-            flag = false
+            flag = false;
         }
     }
 }else{

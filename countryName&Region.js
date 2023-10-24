@@ -9,7 +9,7 @@ xhr.onload = function() {
 
     for(let data of datas){
     
-        console.log('Country Name: '+ data.name.common+',',  'Region: '+ data.region+',',  'Subregion: '+data.subregion)
+        console.log('Country Name : '+ data.name.common+',',  'Region : '+ data.region+',',  'Subregion : '+data.subregion)
     }
 }
 xhr.send();
