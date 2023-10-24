@@ -16,7 +16,7 @@ if(obj1Keys.length == obj2Keys.length){
     flag = false;
 }
 if(flag){
-    console.log('Object Keys & Values are same');
+    console.log('Object Keys & Values are Same');
 }else{
-    console.log('Object Keys & Values are NOT same');
+    console.log('Object Keys & Values are NOT Same');
 }
